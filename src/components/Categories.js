@@ -71,6 +71,7 @@ export class Categories extends Component {
 
 10.O călătorie spre excelență: În Noua Zeelandă, vinul nu este doar o băutură, este o călătorie spre excelență și frumusețe. Fiecare strop de vin este rezultatul unei călătorii pline de muncă, pasiune și talent, care încântă și inspiră în același timp. <br />
         </h3>
+        <h2 className='salam'>Cele mai populare vinuri din Noua Zeelanda</h2>
       </div>
     )
   }

@@ -5,7 +5,7 @@
     padding: 0;
 }
 body {
-    background: #fff;
+    background: antiquewhite;
     color: #222;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -29,7 +29,19 @@ header{
     margin-right: auto;
     margin-top: 40px;
 }
+.salam{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 
+}
+.mah{
+    text-decoration: none;
+    margin: 10px;
+    color: #222;
+    /* visibility: hidden; */
+}
 
 header .logo {
     font-weight: 500;
@@ -38,15 +50,18 @@ header .logo {
 header ul.nav{
     float: right;
     list-style: none;
+    text-decoration: none;
 }
 header ul.nav li{
     display: inline;
     margin-left: 25px;
     cursor: pointer;
     transition: opacity 500ms;
+    text-decoration: none;
 }
 header ul.nav li:hover{
     opacity: 0.5;
+    text-decoration: none;
 }
 header .shop-cart-button{
     float: left;
@@ -152,7 +167,7 @@ header .presentation::before{
 
 .categories div {
     display: inline-block;
-    background: #f2f2f2;
+    background: yellow;
     border-radius: 50px;
     padding: 10px 20px;
     margin-bottom: 25px;

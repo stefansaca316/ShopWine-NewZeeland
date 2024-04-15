@@ -26,9 +26,12 @@ export default function Header(props) {
         <div>
             <span className='logo'>Noua Zeelanda.</span>
             <ul className='nav'>
-              <li>Despre Noua Zeelanda</li>
-              <li>Contacte</li>
-              <li>Cabinet</li>
+              {/* <li a href="https://ro.wikipedia.org/wiki/Noua_Zeeland%C4%83">Despre Noua Zeelanda</li> */}
+              <a href="https://ro.wikipedia.org/wiki/Noua_Zeeland%C4%83" className='mah'>Despre Noua Zeelanda:</a>
+              {/* <a href="">Contacte</a> */}
+              <a href="https://vinimondo.ro/vinuri-noua-zeeland%C4%83" className='mah'>Cabinet:</a>
+              {/* <li>Contacte</li> */}
+              {/* <li>Cabinet</li> */}
               <FaShoppingCart onClick={() => setCartOpen(cartOpen = !cartOpen)} className={`shop-cart-button ${cartOpen && 'active'} `} />
 
               {cartOpen && (
