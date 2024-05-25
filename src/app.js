@@ -78,7 +78,7 @@
 // const ParentComponent = () => {
 //   return <ChildComponent name="World" />;
 // }
-
+// hz
 
 // // State 
 // // Starea (state) este utilizata pentru a gestiona datele dinamice in cadrul unui component
