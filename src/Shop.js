@@ -6,7 +6,7 @@ import Categories from "./components/Categories"
 import ShowFullItem from "./components/ShowFullItem"
 
 
-class Rpp extends React.Component {
+class Shop extends React.Component {
     constructor(props) {
         super(props) 
             this.state = {
@@ -16,7 +16,7 @@ class Rpp extends React.Component {
                     {
                     id: 1,
                     title: 'Vinul Syrah.',
-                    img: 'scau.jpg',
+                    img: 'photo.jpg',
                     desc: 'Syrah este un soi de struguri care produce vinuri roșii bogate și complexe, din regiunea Hawkes Bay.  Este originar din Noua Zeeland, Vinurile Syrah sunt adesea recunoscute pentru aromele lor intense de fructe negre, cum ar fi coacăzele, murele și căpșunile de pădure.',
                     category: 'chairs',
                     price: '17.99,'
@@ -24,41 +24,41 @@ class Rpp extends React.Component {
                     {
                         id: 2,
                     title: 'Vinurile The Ned.',
-                    img: 'Saltea.jpg',
+                    img: 'photo1.jpg',
                     desc: 'The Ned este un brand de vinuri din Noua Zeelandă, produse în regiunea Marlborough. Cunoscut pentru Sauvignon Blanc-ul său vibrant și alte soiuri, cum ar fi Pinot Noir și Pinot Gris. Vinurile The Ned sunt apreciate pentru aromele lor proaspete și bogate, obținând premii și recunoaștere internațională pentru calitatea lor.                    ',
-                    category: 'sofa',
+                    category: 'the ned',
                     price: '19.99,'
                     },
                     {
                         id: 3,
                     title: 'Vinurile Chardonnay Hawke s Bay',
-                    img: 'mas.jpg',
+                    img: 'photo2.jpg',
                     desc: 'Chardonnay-ul din regiunea Hawkes Bay din Noua Zeelandă este cunoscut pentru aromele sale bogate de fructe tropicale și fructe cu coajă albă, împreună cu note subtile de nucă și vanilie. Vinurile pot varia de la proaspete și fructate până la bogate și cremoase, datorită diferitelor tehnici de vinificație. Aceste Chardonnay-uri au adesea un potențial excelent de învechire și au primit recunoaștere internațională pentru calitatea lor',
-                    category: 'tables',
+                    category: 'hawke s bay',
                     price: '14.99,'
                     },
                     {
                         id: 4,
                     title: 'Pinot Gris Marlborough',
-                    img: 'dula.jpeg',
+                    img: 'photo3.jpeg',
                     desc: 'Pinot Gris-ul din regiunea Marlborough, Noua Zeelandă, este cunoscut pentru aromele sale proaspete și fructuoase, precum perele, merele și piersicile. Vinurile pot varia de la ușoare și catifelate până la mai pline și cremoase, oferind o gamă largă de stiluri pentru diferite preferințe. De obicei, sunt destinate consumului în tinerețe pentru a evidenția prospetimea și aromele fructate.',
-                    category: 'light',
+                    category: 'pinot gris marlborough',
                     price: '49.99,'
                     },
                     {
                         id: 5,
                     title: 'Riesling-ul din Central Otago',
-                    img: 'noptiera.webp',
+                    img: 'photo4.webp',
                     desc: 'Riesling-ul din Central Otago, Noua Zeelandă, este apreciat pentru aromele sale intense de fructe citrice și subtile de fructe cu coajă albă, împreună cu arome minerale distincte. Vinurile variază de la seci și crocante până la dulci și bogate, cu o aciditate vibrantă care oferă prospețime și longevitate. Deși multe sunt destinate consumului în tinerețe, unele vinuri de calitate superioară au potențial modest de învechire.',
-                    category: 'chairs',
+                    category: 'riesling-ul din centrul otago',
                     price: '29.99,'
                     },
                     {
                         id: 6,
                     title: 'Albariño Gisborne',
-                    img: 'noptiera.webr',
+                    img: 'photo5.jpg',
                     desc: 'Albariño-ul din regiunea Gisborne din Noua Zeelandă este cunoscut pentru aromele sale proaspete și vibrante de citrice și fructe cu sâmburi, cu o aciditate echilibrată și o textură catifelată. Deși este adesea consumat în tinerețe pentru a-și evidenția aromele proaspete, unele vinuri de calitate pot avea potențial modest de învechire',
-                    category: 'chairs',
+                    category: 'albarino gisborne ',
                     price: '14.99,'
                     }
                     
@@ -116,4 +116,4 @@ addToOrder(item) {
 }
 
 
-export default Rpp
+export default Shop

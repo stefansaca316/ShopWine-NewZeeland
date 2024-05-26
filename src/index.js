@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css'
-import Rpp from './Rpp'
+import Shop from './Shop'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Rpp />
+    <Shop />
   </React.StrictMode>,
   document.getElementById('root')
 );
